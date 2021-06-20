@@ -18,7 +18,11 @@ bus_journey= four_miles + time_stops
 firstlast_miles_covered = 60/7
 remaining_two_covered = 60/15
 min_taken_on_foot = firstlast_miles_covered + remaining_two_covered
-print(f' It takes  {bus_journey} minutes on bus where as on foot it takes {min_taken_on_foot} minutes so jogging is quicker')
+unit = min_taken_on_foot<bus_journey
+if unit:
+    print(f'  it takes {min_taken_on_foot} minutes so jogging is quicker')
+else:
+    print(f'it takes {bus_journey} minutes on bus so bus ride is faster')
 
 
 

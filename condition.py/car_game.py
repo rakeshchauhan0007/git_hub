@@ -1,6 +1,6 @@
 cargame=""
 while cargame == "":
-    game_command= input('>:')
+    game_command= input('type game>:')
     if game_command.lower() == 'game':
         print('start: to start the car')
         print('stop:stop the car')

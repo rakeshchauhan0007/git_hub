@@ -9,7 +9,4 @@ def reverse_string():
  return string[-1:limit_num:-1]
 
 
-
-
-
 print(reverse_string())
